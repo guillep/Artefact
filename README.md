@@ -11,3 +11,34 @@ Artefact is a framework to generate PDF documents. It is fully written in Smallt
 - image support with JPEG and PNG formats
 - pre-defined high level elements like datagrid
 - support PDF compression to produce compact files
+
+# How to Load
+
+### Latest version (1.7.0) for Pharo7
+
+```smalltalk
+Metacello new
+	baseline: 'Artefact';
+	repository: 'github://pharo-contributions/Artefact:v1.7.0';
+	load.
+```
+
+### Development version
+
+```smalltalk
+Metacello new
+	baseline: 'Artefact';
+	repository: 'github://pharo-contributions/Artefact';
+	load.
+```
+
+# Documentation and others
+
+You can check artefact's website [here](https://sites.google.com/site/artefactpdf/)
+
+# ChangesLog
+
+### Version 1.7.0
+
+- adapted to Pharo7.0, changes in streams
+ 
