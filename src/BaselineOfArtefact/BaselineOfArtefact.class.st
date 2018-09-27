@@ -18,7 +18,7 @@ BaselineOfArtefact >> baseline: spec [
 			project: 'Stylesheet' with: [
 				spec
 					className: #ConfigurationOfStylesheet;
-					versionString: #'0.2-baseline';
+					versionString: '0.2-baseline';
 					repository: 'http://smalltalkhub.com/mc/RMoD/Stylesheet/main/' ].
 		spec 
 			package: 'Artefact-Core' with: [
